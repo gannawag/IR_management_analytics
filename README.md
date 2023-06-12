@@ -1,1 +1,1 @@
-# IR_management_analytics
+# Information Resrouces Management and Analytics
