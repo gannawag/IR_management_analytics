@@ -1,1 +1,1 @@
-# Information Resrouces Management and Analytics
+# Information Resources Management and Analytics
