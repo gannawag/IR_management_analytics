@@ -11,11 +11,13 @@ editor: visual
 ## Basic Stats Review
 
 *AI Chapter 1-2: The Age of AI; Rethinking the Firm*
-*BA Chapter 1-2 Describing the Distribution of a Variables; Finding Relationships among Variables*
+
+*BA Chapter 2-3 Describing the Distribution of a Variables; Finding Relationships among Variables*
 
 ## Business Intelligence Tools
 
-*AI Chapter 3-4 the AI Factory; Rearchitecting the Firm*
+*AI Chapter 3-4 the AI Factory; Re-architecting the Firm*
+
 *BA Chapter 4 Business Intelligence (BI) Tools for Data Analysis*
 
 ## PowerBI
@@ -23,11 +25,13 @@ editor: visual
 ## Strategy Simulation
 
 *AI 5-6 Becoming an AI company; Strategy for a New Age*
+
 *Data Analytics Simulation: Strategic Decision Making*
 
 ## Decision Making Under Uncertainty
 
 *Data Analytics Simulation Debrief* 
+
 *BA Chapter 6 Decision Making under Uncertainty*
 
 ## Emerging Technology Presentation
@@ -37,6 +41,7 @@ editor: visual
 ## Regression
 
 *BA Chapter 10 Estimating Relationships* 
+
 *BA Chapter 11 Regression Analysis: Statistical Inference*
 
 ## IT Management Simulation
