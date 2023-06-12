@@ -1,6 +1,6 @@
 ---
 title: "Course Outline"
-format: markdown
+format: markdown_github
 editor: visual
 ---
 

@@ -1,8 +1,5 @@
----
-editor: visual
-title: Course Outline
-toc-title: Table of contents
----
+Course Outline
+================
 
 ## Introduction
 
