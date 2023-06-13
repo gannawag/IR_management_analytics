@@ -1,6 +1,6 @@
 
 ## [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide)
-<details>
+<details><summary>Suggested Reading</summary>
 
 *BA Chapter 1 Introduction to Business Analytics*
 
@@ -8,7 +8,7 @@
 
 ## Basic Stats Review
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *AI Chapter 1-2: The Age of AI; Rethinking the Firm*
 
@@ -18,7 +18,7 @@
 
 ## Business Intelligence Tools
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *AI Chapter 3-4 the AI Factory; Re-architecting the Firm*
 
@@ -30,7 +30,7 @@
 
 ## Strategy Simulation
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *AI 5-6 Becoming an AI company; Strategy for a New Age*
 
@@ -40,7 +40,7 @@
 
 ## Decision Making Under Uncertainty
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *Data Analytics Simulation Debrief* 
 
@@ -50,7 +50,7 @@
 
 ## Emerging Technology Presentation
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *AI Chapter 7-8 Strategic Collisions; the Ethics of Digital Scale, Scope and Learning*
 
@@ -58,7 +58,7 @@
 
 ## Regression
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *BA Chapter 10 Estimating Relationships* 
 
@@ -68,7 +68,7 @@
 
 ## IT Management Simulation
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *AI Chapter 9-10 the New Meta; A Leadership Mandate*
 
@@ -76,7 +76,7 @@
 
 ## Time Series
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *BA Chapter 12 Time Series Analysis and Forecasting*
 
@@ -84,7 +84,7 @@
 
 ## Opimization Modeling
 
-<details>
+<details><summary>Suggested Reading</summary>
 
 *BA Chapter 13 Introduction to Optimization Modeling*
 
