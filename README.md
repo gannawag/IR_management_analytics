@@ -1,3 +1,5 @@
+![image](/assets/personal_photo.jpg)
+
 
 ## [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide)
 <details><summary>Suggested Reading</summary>
