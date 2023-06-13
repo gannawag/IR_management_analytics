@@ -1,9 +1,8 @@
-# Information Resources Management and Analytics
-
 
 ## [Introduction](https://gannawag.github.io/IR_management_analytics/_lectures/Lecture%201%20Introduction.html#/title-slide)
-
+<details>
 *BA Chapter 1 Introduction to Business Analytics*
+<\details>
 
 ## Basic Stats Review
 
