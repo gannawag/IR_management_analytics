@@ -1,16 +1,19 @@
 
 ## [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide)
-
 <details>
+
 *BA Chapter 1 Introduction to Business Analytics*
+
 </details>
 
 ## Basic Stats Review
 
 <details>
+
 *AI Chapter 1-2: The Age of AI; Rethinking the Firm*
 
 *BA Chapter 2-3 Describing the Distribution of a Variables; Finding Relationships among Variables*
+
 </details>
 
 ## Business Intelligence Tools
