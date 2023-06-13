@@ -2,6 +2,7 @@
 title: "Introduction"
 format: revealjs
 editor: visual
+permalink: "/lectures/"
 ---
 
 ## Quarto
