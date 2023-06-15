@@ -329,25 +329,40 @@
 </div>
 
 </section>
-<section id="quarto" class="slide level2">
-<h2>Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <a href="https://quarto.org/docs/presentations/" class="uri">https://quarto.org/docs/presentations/</a>.</p>
+<section id="me" class="slide level2">
+<h2>Me</h2>
 </section>
-<section id="bullets" class="slide level2">
-<h2>Bullets</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes:</p>
+<section id="this-course" class="slide level2">
+<h2>This Course</h2>
 <ul>
-<li>Content authored with markdown</li>
-<li>Output from executable code</li>
+<li><p>This course is <em>management</em> training</p>
+<ul>
+<li>Understand the <strong>landscape</strong> so you can <strong>lead expeditions</strong></li>
+<li>(Introductory) <strong>Hands-on</strong> training to give you a sense of what’s going on under the hood</li>
+</ul></li>
 </ul>
-</section>
-<section id="code" class="slide level2">
-<h2>Code</h2>
-<p>When you click the <strong>Render</strong> button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="r-stack">
+<p><img data-src="media/henry_ford_phone.png" class="fragment" width="650" height="500"></p>
+<p><img data-src="media/ford_v_ferrari_crying.png" class="fragment" width="700" height="450"></p>
 </div>
+</section>
+<section id="training-for-the-future" class="slide level2">
+<h2>Training for the Future</h2>
+<div class="r-stack">
+<p><img data-src="media/star_trek_transporter.png" class="fragment" width="500" height="500"></p>
+<p><img data-src="media/star_trek_cockpit.png" class="fragment" width="500" height="500"> <img data-src="media/star_trek_pilots.png" class="fragment" width="500" height="500"></p>
+</div>
+</section>
+<section id="the-future-thats-right-in-front-of-us" class="slide level2">
+<h2>The Future that’s Right in Front of us</h2>
+<ul>
+<li>Becoming <strong>bilingual</strong>
+<ul>
+<li>Health care <em>and</em> data science</li>
+</ul></li>
+</ul>
+<div class="r-stack">
+<p><img data-src="media/shelby.png" class="fragment" width="450" height="500"></p>
 </div>
 <div class="footer footer-default">
 
@@ -564,44 +579,6 @@
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

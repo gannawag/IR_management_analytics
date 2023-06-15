@@ -5,21 +5,38 @@ editor: visual
 permalink: "/lectures/"
 ---
 
-## Quarto
+## Me
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+## This Course
 
-## Bullets
+-   This course is *management* training
 
-When you click the **Render** button a document will be generated that includes:
+    -   Understand the **landscape** so you can **lead expeditions**
+    -   (Introductory) **Hands-on** training to give you a sense of what's going on under the hood
 
--   Content authored with markdown
--   Output from executable code
+::: r-stack
+![](media/henry_ford_phone.png){.fragment width="650" height="500"}
 
-## Code
+![](media/ford_v_ferrari_crying.png){.fragment width="700" height="450"}
+:::
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{r}
-1 + 1
-```
+## Training for the Future
+
+::: r-stack
+![](media/star_trek_transporter.png){.fragment width="500" height="500"}
+
+![](media/star_trek_cockpit.png){.fragment width="500" height="500"}
+![](media/star_trek_pilots.png){.fragment width="500" height="500"}
+:::
+
+## The Future that's Right in Front of us
+
+- Becoming **bilingual** 
+  - Health care *and* data science
+
+::: r-stack
+![](media/shelby.png){.fragment width="450" height="500"}
+:::
+ 
+
