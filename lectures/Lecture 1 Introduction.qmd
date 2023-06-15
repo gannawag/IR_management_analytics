@@ -20,23 +20,52 @@ permalink: "/lectures/"
 ![](media/ford_v_ferrari_crying.png){.fragment width="700" height="450"}
 :::
 
-
 ## Training for the Future
 
 ::: r-stack
 ![](media/star_trek_transporter.png){.fragment width="500" height="500"}
 
-![](media/star_trek_cockpit.png){.fragment width="500" height="500"}
-![](media/star_trek_pilots.png){.fragment width="500" height="500"}
+![](media/star_trek_cockpit.png){.fragment width="500" height="500"} ![](media/star_trek_pilots.png){.fragment width="500" height="500"}
 :::
 
 ## The Future that's Right in Front of us
 
-- Becoming **bilingual** 
-  - Health care *and* data science
+-   Becoming **bilingual**
+    -   \[Health care \| education \| policy \| whatever\]
+
+        *and* data science
 
 ::: r-stack
 ![](media/shelby.png){.fragment width="450" height="500"}
 :::
- 
 
+## Course Admin
+
+-   [Canvas](https://bryant.instructure.com/courses/8700)
+    -   Textbooks (and textbook slides)
+    -   Data
+    -   Videos
+    -   Assignments/Quizzes
+    -   Announcements
+-   [This Site](https://gannawag.github.io/IR_management_analytics/)
+    -   Lecture decks
+
+## Assignments (all on [Canvas](https://bryant.instructure.com/courses/8700))
+
+1.  Reading Quiz for Each Lecture
+
+2.  Simulations: Business Analytics, Cyber Attack (*TBD*)
+
+3.  Prediction Challenge (*Week 3*)
+
+4.  AI Project (**group**)
+
+    -   Descriptive Analysis (*Week 2*)
+
+    -   Data Visualization (*Week 4*)
+
+    -   Final Product Presentation (*Week 6*)
+
+5.  Emerging Technology Idea (**group**) (*Week 5*)
+
+6.  Peer Evaluation
