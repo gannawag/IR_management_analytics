@@ -1,10 +1,8 @@
 
-## [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide)
 
-|--------|--------|------------|----------------------------------------------------------------------------------------------------|---------------------------------------|
 | Week   | Class  | Date       | Topic/Reading                                                                                      | Assignments                           |
 |--------|--------|------------|----------------------------------------------------------------------------------------------------|---------------------------------------|
-| 1      | 1      | 7/6        | Introduction                                                                                       |                                       |
+| 1      | 1      | 7/6        | [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide)                                                                                       |                                       |
 |        |        |            |                                                                                                    |                                       |
 |        |        |            | BA Chapter 1 Introduction to Business Analytics                                                    |                                       |
 |--------|--------|------------|----------------------------------------------------------------------------------------------------|---------------------------------------|
