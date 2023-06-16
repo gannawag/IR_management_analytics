@@ -7,8 +7,6 @@ permalink: "/lectures/"
 
 ## Me
 
-All views are my own.
-
 ## This Course
 
 -   This course is *management* training
@@ -72,7 +70,7 @@ But first...
 
     -   Data Visualization (*Week 4*)
 
-    -   Final Product Presentation (*Week 6*)
+    -   Final Product Presentation (*Week 5*)
 
 5.  Emerging Technology Idea (**group**) (*Week 5*)
 
@@ -123,7 +121,7 @@ But first...
 
 ## Prediction Challenge
 
-**Submissions (**$\hat{y}$ as .csv) Due End of Week 3
+**Submissions (**$\hat{y}$ as .csv) **Due End of Week 3**
 
 More details coming next week
 
@@ -140,65 +138,63 @@ As a team, investigate an emerging technology/AI application of your interest. Y
 
 -   \*Classes 7/11, 7/13, 7/18, 7/20 will be REMOTE - Zoom link provided through Canvas
 
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-| Week   | Class  | Date       | Topic/Reading                                                                                      | Assignments                           |
-+========+========+============+====================================================================================================+=======================================+
-| 0      | 1      | 7/6        | Introduction                                                                                       |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *BA Chapter 1 Introduction to Business Analytics*                                                  |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-| 1      | 2      | **7/11\*** | Basic Stats Review                                                                                 |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *AI Chapter 1-2: The Age of AI; Rethinking the Firm*                                               |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *BA Chapter 2-3 Describing the Distribution of a Variables; Finding Relationships among Variables* |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-|        | 3      | **7/13\*** | Business Intelligence Tools                                                                        |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *AI Chapter 3-4 the AI Factory; Re-architecting the Firm*                                          |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *BA Chapter 4 Business Intelligence (BI) Tools for Data Analysis*                                  |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-| 2      | 4      | **7/18\*** | PowerBI                                                                                            |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | Guest Lecture                                                                                      |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-|        | 5      | **7/20\*** | Strategy Simulation                                                                                | Descriptive Analytics Submission      |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *AI 5-6 Becoming an AI company; Strategy for a New Age*                                            |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *Data Analytics Simulation: Strategic Decision Making*                                             |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-| 3      | 6      | 7/25       | Decision Making Under Uncertainty                                                                  |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *Data Analytics Simulation Debrief*                                                                |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *BA Chapter 6 Decision Making under Uncertainty*                                                   |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-|        | 7      | 7/27       | Regression                                                                                         | Prediction Challenge Submission       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *BA Chapter 10 Estimating Relationships*                                                           |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *BA Chapter 11 Regression Analysis: Statistical Inference*                                         |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-| 4      | 8      | 8/1        | IT Management Simulation                                                                           |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *AI Chapter 9-10 the New Meta; A Leadership Mandate*                                               |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-|        | 9      | 8/3        | Time Series                                                                                        | Data Visualization Submission         |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *BA Chapter 12 Time Series Analysis and Forecasting*                                               |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-| 5      | 10     | 8/8        | Optimization Modeling                                                                              |                                       |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *BA Chapter 13 Introduction to Optimization Modeling*                                              |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-|        | 11     | 8/10       | Emerging Technology Presentations                                                                  | Emerging Technology Presentation      |
-|        |        |            |                                                                                                    |                                       |
-|        |        |            | *AI Chapter 7-8 Strategic Collisions; the Ethics of Digital Scale, Scope and Learning*             |                                       |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
-| 6      | 12     | 8/15       | Analytics Project Final Presentations                                                              | Analytics Project Final Presentations |
-+--------+--------+------------+----------------------------------------------------------------------------------------------------+---------------------------------------+
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+| Week   | Class  | Date       | Topic/Reading                                                                                      | Assignments                                                              |
++========+========+============+====================================================================================================+==========================================================================+
+| 0      | 1      | 7/6        | Introduction                                                                                       |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *BA Chapter 1 Introduction to Business Analytics*                                                  |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+| 1      | 2      | **7/11\*** | Basic Stats Review                                                                                 |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *AI Chapter 1-2: The Age of AI; Rethinking the Firm*                                               |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *BA Chapter 2-3 Describing the Distribution of a Variables; Finding Relationships among Variables* |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+|        | 3      | **7/13\*** | Business Intelligence Tools                                                                        |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *AI Chapter 3-4 the AI Factory; Re-architecting the Firm*                                          |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *BA Chapter 4 Business Intelligence (BI) Tools for Data Analysis*                                  |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+| 2      | 4      | **7/18\*** | PowerBI                                                                                            |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | Guest Lecture                                                                                      |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+|        | 5      | **7/20\*** | Strategy Simulation                                                                                | Descriptive Analytics Submission                                         |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *AI 5-6 Becoming an AI company; Strategy for a New Age*                                            |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *Data Analytics Simulation: Strategic Decision Making*                                             |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+| 3      | 6      | 7/25       | Decision Making Under Uncertainty                                                                  |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *Data Analytics Simulation Debrief*                                                                |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *BA Chapter 6 Decision Making under Uncertainty*                                                   |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+|        | 7      | 7/27       | Regression                                                                                         | Prediction Challenge Submission                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *BA Chapter 10 Estimating Relationships*                                                           |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *BA Chapter 11 Regression Analysis: Statistical Inference*                                         |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+| 4      | 8      | 8/1        | IT Management Simulation                                                                           |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *AI Chapter 9-10 the New Meta; A Leadership Mandate*                                               |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+|        | 9      | 8/3        | Time Series                                                                                        | Data Visualization Submission                                            |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *BA Chapter 12 Time Series Analysis and Forecasting*                                               |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+| 5      | 10     | 8/8        | Optimization Modeling                                                                              |                                                                          |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *BA Chapter 13 Introduction to Optimization Modeling*                                              |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+|        | 11     | 8/10       | Emerging Technology Presentations  + Analytics Project Final Presentations                         | Emerging Technology Presentation + Analytics Project Final Presentations |
+|        |        |            |                                                                                                    |                                                                          |
+|        |        |            | *AI Chapter 7-8 Strategic Collisions; the Ethics of Digital Scale, Scope and Learning*             |                                                                          |
++--------+--------+------------+----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
 
 ## Admin Questions?
 
@@ -275,15 +271,8 @@ As a team, investigate an emerging technology/AI application of your interest. Y
 
 -   Whom should we test?
 
-![](media/over_under_testing.png){width="900" height="450"}
+![](media/over_under_testing.png){.fragment width="900" height="450"}
 
-## Preventing Crime {.scrollable}
+## Preventing Crime
 
 -   Whom should we release?
-
-::: r-stack
-
-![](media/crime_2.png){.fragment width="900" height="650"}
-
-![](media/predicting_crime.png){.fragment width="900" height="650"}
-:::
