@@ -35,3 +35,7 @@ perspective.
 - Apply, analyze, and evaluate predictive analytics to mitigate risk and increase the
 probability of organizational success.
 - Create data visualizations to depict quantitative and qualitative insights.
+
+|---|
+| [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide) |
+| Basic Stats Review |
