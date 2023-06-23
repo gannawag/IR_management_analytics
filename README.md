@@ -38,5 +38,6 @@ probability of organizational success.
 
 |Materials|
 |---|
+| [Syllabus](https://gannawag.github.io/IR_management_analytics/syllabus.html) |
 | [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide) |
 | [Basic Stats Review](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%202%20Basic%20Stats%20Review.html#/title-slide) |
