@@ -10,6 +10,146 @@
 
 <title>MBA 523 Information Resources Managament and Analytics</title>
 <style>
+html {
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: #1a1a1a;
+  background-color: #fdfdfd;
+}
+body {
+  margin: 0 auto;
+  max-width: 36em;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9em;
+    padding: 1em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+}
+@media print {
+  body {
+    background-color: transparent;
+    color: black;
+    font-size: 12pt;
+  }
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3, h4 {
+    page-break-after: avoid;
+  }
+}
+p {
+  margin: 1em 0;
+}
+a {
+  color: #1a1a1a;
+}
+a:visited {
+  color: #1a1a1a;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.4em;
+}
+h5, h6 {
+  font-size: 1em;
+  font-style: italic;
+}
+h6 {
+  font-weight: normal;
+}
+ol, ul {
+  padding-left: 1.7em;
+  margin-top: 1em;
+}
+li > ol, li > ul {
+  margin-top: 0;
+}
+blockquote {
+  margin: 1em 0 1em 1.7em;
+  padding-left: 1em;
+  border-left: 2px solid #e6e6e6;
+  color: #606060;
+}
+code {
+  font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+  font-size: 85%;
+  margin: 0;
+}
+pre {
+  margin: 1em 0;
+  overflow: auto;
+}
+pre code {
+  padding: 0;
+  overflow: visible;
+  overflow-wrap: normal;
+}
+.sourceCode {
+ background-color: transparent;
+ overflow: visible;
+}
+hr {
+  background-color: #1a1a1a;
+  border: none;
+  height: 1px;
+  margin: 1em 0;
+}
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+  margin-bottom: 0.75em;
+}
+tbody {
+  margin-top: 0.5em;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+}
+th {
+  border-top: 1px solid #1a1a1a;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+  padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+  margin-bottom: 4em;
+  text-align: center;
+}
+#TOC li {
+  list-style: none;
+}
+#TOC ul {
+  padding-left: 1.3em;
+}
+#TOC > ul {
+  padding-left: 0;
+}
+#TOC a:not(:hover) {
+  text-decoration: none;
+}
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -21,48 +161,33 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
 <script src="syllabus_files/libs/clipboard/clipboard.min.js"></script>
-<script src="syllabus_files/libs/quarto-html/quarto.js"></script>
+<script src="syllabus_files/libs/quarto-html/tabby.min.js"></script>
 <script src="syllabus_files/libs/quarto-html/popper.min.js"></script>
 <script src="syllabus_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="syllabus_files/libs/quarto-html/anchor.min.js"></script>
 <link href="syllabus_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="syllabus_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="syllabus_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="syllabus_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="syllabus_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="syllabus_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="syllabus_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
-<body class="fullcontent">
+<body>
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
+<header id="title-block-header">
 <h1 class="title">MBA 523 Information Resources Managament and Analytics</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
+<p class="author"></p>
 
 </header>
 
-<table class="table">
+<table>
 <tbody>
 <tr class="odd">
 <td><strong>Instructor</strong></td>
@@ -71,7 +196,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><strong>Class Meets</strong></td>
-<td>Tuesday and Thursday 6pm-9:30pm</td>
+<td><p>Tuesday and Thursday 6pm-9:30pm</p>
+<p>AIC 130</p></td>
 </tr>
 <tr class="odd">
 <td><strong>Virtual Office Hours</strong></td>
@@ -81,8 +207,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p>Welcome to Information Resource Management and Analytics! My name is Grant Gannaway and I will be your instructor for this course. I am an Adjunct Professor in the Information Systems and Analytics department at Bryant University. I earned my PhD in Economics from The University of Chicago in 2020. I work full time as a Lead Data Scientist at CVS Health (all views and opinions are my own). My research interests include Health Economics, Applied Econometrics, Causal Machine Learning, Sports Economics. I am also interested generally in any application of data science or machine learning. I love to hang out with my wife and kids, watch baseball, read, hike, camp, landscape my yard, try new food, and explore new places.</p>
-<section id="required-materials" class="level1">
-<h1>Required Materials</h1>
+<h1 id="required-materials">Required Materials</h1>
 <ol type="1">
 <li><p>Business Analytics: Data Analysis &amp; Decision Making, Christian Albright and Wayne L. Winston 7th Edition (2020). ISBN:978-0357109953 (Purchase/Access through Canvas)</p></li>
 <li><p>Harvard Business Publishing Coursepack</p>
@@ -93,14 +218,10 @@ ul.task-list li input[type="checkbox"] {
 </ol></li>
 <li><p>LinkedIn Learning (subscription provided by the school)</p></li>
 </ol>
-</section>
-<section id="course-description" class="level1">
-<h1>Course Description</h1>
+<h1 id="course-description">Course Description</h1>
 <p>All assignments, quizzes, course recordings, and course information can be found on the <a href="https://bryant.instructure.com/courses/8700">Canvas site</a>. The lecture presentations will be made available at <a href="https://gannawag.github.io/IR_management_analytics/">This website</a>.</p>
 <p>MBA523 is founded on the premise that all managers in an organization need to be aware of the role that information technology plays in the success of an enterprise and the managerial issues that arise in effectively implementing information technology to gain and maintain competitive advantage. The course provides a framework for understanding of technical, organizational and strategic issues surrounding the management of information technologies. In addition, we live in a data-driven society in which data is being collected and stored at an unprecedented rate. The future progress of business, economic, social, and technology advancements depends on those who possess analytical skills. These skills allow one to use data effectively, to gain valuable insights, and to communicate these insights by visually depicting critical information and data so an organization can act. It is often said in business that without data, you are just someone with an opinion. This course serves as an introduction to the field of business analytics: the skills, technologies, applications and practices for continuous iterative exploration and investigation of past business performance to gain insight and drive business planning. You will be exposed to the concepts and tools of analytics, including sampling, testing, confidence, exploration, descriptive statistics, data visualization, predictive analytics, prescriptive analytics as well as supervised and unsupervised machine learning techniques. We will apply these concepts to real world case studies and curated data sets. Various tools will be used including Excel, Tableau/PowerBI, and Python for the tasks in this course. You should have intermediate Excel skills.</p>
-</section>
-<section id="learning-objectives" class="level1">
-<h1>Learning Objectives</h1>
+<h1 id="learning-objectives">Learning Objectives</h1>
 <ul>
 <li>Understand key elements of the technology, metrics and terminology of IT infrastructure with respect to the business processes that they serve.</li>
 <li>Understand key management issues related to IT from a general management perspective and gain an appreciation of these issues from an IT manager’s perspective.</li>
@@ -111,10 +232,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Apply, analyze, and evaluate predictive analytics to mitigate risk and increase the probability of organizational success.</li>
 <li>Create data visualizations to depict quantitative and qualitative insights.</li>
 </ul>
-</section>
-<section id="course-evaluation" class="level1">
-<h1>Course Evaluation</h1>
-<table class="table">
+<h1 id="course-evaluation">Course Evaluation</h1>
+<table>
 <thead>
 <tr class="header">
 <th>Deliverable</th>
@@ -149,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p>The grading scale for this class is as follows:</p>
-<table class="table">
+<table>
 <thead>
 <tr class="header">
 <th>Final Grade</th>
@@ -191,36 +310,25 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-</section>
-<section id="assignments" class="level1">
-<h1>Assignments</h1>
-<section id="quizzes" class="level2">
-<h2 class="anchored" data-anchor-id="quizzes">Quizzes</h2>
+<h1 id="assignments">Assignments</h1>
+<h2 id="quizzes" class="anchored">Quizzes</h2>
 <p>You will take at least 5 quizzes in this course. Quizzes will be administered via Canvas, and will be due at 11:59pm the day following the lecture on which they are based. The points value of each quiz will equal 100 divided by the number of quizzes given.</p>
-</section>
-<section id="case-studiessimulations" class="level2">
-<h2 class="anchored" data-anchor-id="case-studiessimulations">Case Studies/Simulations</h2>
+<h2 id="case-studiessimulations" class="anchored">Case Studies/Simulations</h2>
 <p>Will likely be completed in-class. Grading will be based on participation.</p>
-</section>
-<section id="prediction-competition" class="level2">
-<h2 class="anchored" data-anchor-id="prediction-competition">Prediction Competition</h2>
-<p><strong>Submissions (</strong><span class="math inline">\(\hat{y}\)</span> as .csv) <strong>Due End of Week 3</strong></p>
+<h2 id="prediction-competition" class="anchored">Prediction Competition</h2>
+<p><strong>Submissions (</strong><span class="math inline"><em>ŷ</em></span> as .csv) <strong>Due End of Week 3</strong></p>
 <ul>
 <li>Kaggle style</li>
-<li>I provide Training Data <span class="math inline">\((X, y)\)</span> and Testing <span class="math inline">\(X\)</span>, you submit predictions <span class="math inline">\((\hat{y})\)</span></li>
+<li>I provide Training Data <span class="math inline">(<em>X</em>,<em>y</em>)</span> and Testing <span class="math inline"><em>X</em></span>, you submit predictions <span class="math inline">(<em>ŷ</em>)</span></li>
 <li>Points awarded based on percentile of accuracy (RMSE)</li>
 </ul>
-</section>
-<section id="group-emerging-technology-presentation" class="level2">
-<h2 class="anchored" data-anchor-id="group-emerging-technology-presentation">Group Emerging Technology Presentation</h2>
+<h2 id="group-emerging-technology-presentation" class="anchored">Group Emerging Technology Presentation</h2>
 <p><strong>Presentations (3-5 slides) Presented Final Class Meeting</strong></p>
 <p>As a team, investigate an emerging technology/AI application of your interest. You can refer to Gartner Hype Cycle for <a href="https://www.gartner.com/en/articles/what-s-new-in-the-2022-gartner-hype-cycle-for-emerging-technologies">Emerging Technology</a> and <a href="https://www.gartner.com/en/articles/what-s-new-in-artificial-intelligence-from-the-2022-gartner-hype-cycle">AI</a> for the selection of the topic. Conduct thorough research of this technology using reputable online sources (contact the Bryant librarians on locating good online sources). Work together to create a presentation to report your findings.</p>
 <ul>
 <li>Points awarded based on “quality” of project</li>
 </ul>
-</section>
-<section id="group-analytics-project" class="level2">
-<h2 class="anchored" data-anchor-id="group-analytics-project">Group Analytics Project</h2>
+<h2 id="group-analytics-project" class="anchored">Group Analytics Project</h2>
 <ul>
 <li><p>Find something interesting in the AI/Data Science/ML world and create <em>something</em></p></li>
 <li><p>Points awarded based on:</p>
@@ -234,17 +342,14 @@ ul.task-list li input[type="checkbox"] {
 <li><p>One approach: imagine a client has hired you to solve a problem, and this is your chance to solve it</p></li>
 <li><p><strong>GROUPS OF 4-5 MUST BE REGISTERED ALONG WITH GENERAL TOPIC AREA <a href="https://docs.google.com/spreadsheets/d/1WohDMv6lrv_TKRdxqeJNfznOQFqSWYFZrVewZVTXAls/edit?usp=sharing">HERE</a> BY END OF WEEK 1</strong></p></li>
 </ul>
-<section id="descriptive-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="descriptive-analysis">Descriptive Analysis</h3>
+<h3 id="descriptive-analysis" class="anchored">Descriptive Analysis</h3>
 <p><strong>Submissions (1 page) Due end of Week 2</strong></p>
 <ul>
 <li>What data are you using?</li>
 <li>Summary tables + histograms</li>
 <li>Demonstrate that you have the data and your project is <em>feasible</em></li>
 </ul>
-</section>
-<section id="data-visualization" class="level3">
-<h3 class="anchored" data-anchor-id="data-visualization">Data Visualization</h3>
+<h3 id="data-visualization" class="anchored">Data Visualization</h3>
 <p><strong>Submissions (dashboard or visualization) Due End of Week 4</strong></p>
 <ul>
 <li>Deep dive into data and specific project</li>
@@ -252,24 +357,18 @@ ul.task-list li input[type="checkbox"] {
 <li>Visually appealing</li>
 <li>This the setup of your final project</li>
 </ul>
-</section>
-<section id="final-product-presentation" class="level3">
-<h3 class="anchored" data-anchor-id="final-product-presentation">Final Product Presentation</h3>
+<h3 id="final-product-presentation" class="anchored">Final Product Presentation</h3>
 <p><strong>Presentations (5-7 slides + demo) Presented Final Class Meeting</strong></p>
 <ul>
 <li>Convey your solution/answer</li>
 <li>Show why this is interesting</li>
 <li>Demonstrate your data analytics/visualization skills</li>
 </ul>
-</section>
-</section>
-</section>
-<section id="tentative-schedule-subject-to-change" class="level1">
-<h1>Tentative Schedule (subject to change)</h1>
+<h1 id="tentative-schedule-subject-to-change">Tentative Schedule (subject to change)</h1>
 <ul>
 <li>*Classes 7/11, 7/13, 7/18, 7/20 will be REMOTE - Zoom link provided through Canvas</li>
 </ul>
-<table class="table">
+<table style="width:99%;">
 <colgroup>
 <col style="width: 4%">
 <col style="width: 4%">
@@ -384,10 +483,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-</section>
 
-</main>
-<!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -408,6 +504,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+  tabsets.forEach(function(tabset) {
+    const tabby = new Tabby('#' + tabset.id);
+  });
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -465,7 +565,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       },
       interactive: true,
       interactiveBorder: 10,
-      theme: 'quarto',
+      theme: 'light-border',
       placement: 'bottom-start'
     };
     window.tippy(el, config); 
@@ -521,7 +621,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-</div> <!-- /content -->
 
 
 
