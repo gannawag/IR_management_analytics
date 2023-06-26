@@ -1,4 +1,10 @@
-MBA523 is founded on the premise that all managers in an organization need to be aware
+|Materials|
+|---|
+| [Syllabus](https://gannawag.github.io/IR_management_analytics/syllabus.html) |
+
+
+
+MBA 523 is founded on the premise that all managers in an organization need to be aware
 of the role that information technology plays in the success of an enterprise and the
 managerial issues that arise in effectively implementing information technology to gain
 and maintain competitive advantage. The course provides a framework for understanding
@@ -36,8 +42,4 @@ perspective.
 probability of organizational success.
 - Create data visualizations to depict quantitative and qualitative insights.
 
-|Materials|
-|---|
-| [Syllabus](https://gannawag.github.io/IR_management_analytics/syllabus.html) |
-| [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide) |
-| [Basic Stats Review](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%202%20Basic%20Stats%20Review.html#/title-slide) |
+
