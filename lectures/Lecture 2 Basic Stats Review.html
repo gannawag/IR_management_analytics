@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="Lecture 1 Introduction_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Lecture 1 Introduction_files/libs/quarto-html/tabby.min.js"></script>
-<script src="Lecture 1 Introduction_files/libs/quarto-html/popper.min.js"></script>
-<script src="Lecture 1 Introduction_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="Lecture 1 Introduction_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Lecture 1 Introduction_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="Lecture 1 Introduction_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="Lecture 2 Basic Stats Review_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Lecture 2 Basic Stats Review_files/libs/quarto-html/tabby.min.js"></script>
+<script src="Lecture 2 Basic Stats Review_files/libs/quarto-html/popper.min.js"></script>
+<script src="Lecture 2 Basic Stats Review_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="Lecture 2 Basic Stats Review_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Lecture 2 Basic Stats Review_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="Lecture 2 Basic Stats Review_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.475">
 
-  <title>Introduction</title>
+  <title>Basic Stats Review</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="Lecture 1 Introduction_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="Lecture 1 Introduction_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="Lecture 2 Basic Stats Review_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="Lecture 2 Basic Stats Review_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -28,11 +28,11 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="Lecture 1 Introduction_files/libs/revealjs/dist/theme/quarto.css" id="theme">
-  <link href="Lecture 1 Introduction_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="Lecture 1 Introduction_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="Lecture 1 Introduction_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="Lecture 1 Introduction_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="Lecture 2 Basic Stats Review_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link href="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -323,443 +323,371 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Introduction</h1>
+  <h1 class="title">Basic Stats Review</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="me" class="slide level2">
-<h2>Me</h2>
-</section>
-<section id="this-course" class="slide level2">
-<h2>This Course</h2>
+<section id="admin" class="slide level2">
+<h2>Admin</h2>
 <ul>
-<li><p>This course is <em>management</em> training</p>
+<li>Group registration due Friday</li>
+<li>4-5 members per group</li>
+<li>Submit groups and topics <a href="https://docs.google.com/spreadsheets/d/1WohDMv6lrv_TKRdxqeJNfznOQFqSWYFZrVewZVTXAls/edit?usp=sharing">here</a>
 <ul>
-<li>Understand the <strong>landscape</strong> so you can <strong>lead expeditions</strong></li>
-<li>(Introductory) <strong>Hands-on</strong> training to give you a sense of what’s going on under the hood</li>
+<li>Need to make sure we don’t have completely overlapping topics - incentive to submit early</li>
 </ul></li>
 </ul>
-<div class="r-stack">
-<p><img data-src="media/henry_ford_phone.png" class="fragment" width="650" height="500"></p>
-<p><img data-src="media/ford_v_ferrari_crying.png" class="fragment" width="700" height="450"></p>
-</div>
-</section>
-<section id="training-for-the-future" class="slide level2">
-<h2>Training for the Future</h2>
-<div class="r-stack">
-<p><img data-src="media/star_trek_transporter.png" class="fragment" width="500" height="500"></p>
-<p><img data-src="media/star_trek_cockpit.png" class="fragment" width="500" height="500"> <img data-src="media/star_trek_pilots.png" class="fragment" width="500" height="500"></p>
-</div>
-</section>
-<section id="the-future-thats-right-in-front-of-us" class="slide level2">
-<h2>The Future that’s Right in Front of us</h2>
-<ul>
-<li>Becoming <strong>bilingual</strong>
-<ul>
-<li><p>[Health care | education | policy | whatever]</p>
-<p><em>and</em> data science</p></li>
-</ul></li>
-<li>Seeing the <em>real</em> future through the hype
-<ul>
-<li>Preparing for it and shaping it</li>
-</ul></li>
-</ul>
-<div class="r-stack">
-<p><img data-src="media/shelby.png" class="fragment" width="450" height="500"></p>
-</div>
-</section>
-<section id="examples" class="slide level2">
-<h2>Examples…</h2>
-<p>But first…</p>
-</section>
-<section id="course-admin" class="slide level2">
-<h2>Course Admin</h2>
-<ul>
-<li><a href="https://bryant.instructure.com/courses/8700">Canvas</a>
-<ul>
-<li>Textbooks (and textbook slides)</li>
-<li>Data</li>
-<li>Videos</li>
-<li>Assignments/Quizzes</li>
-<li>Announcements</li>
-</ul></li>
-<li><a href="https://gannawag.github.io/IR_management_analytics/">This Site</a>
-<ul>
-<li>Lecture decks</li>
-</ul></li>
-</ul>
-</section>
-<section id="assignments-all-on-canvas" class="slide level2">
-<h2>Assignments (all on <a href="https://bryant.instructure.com/courses/8700">Canvas</a>)</h2>
-<ol type="1">
-<li><p>Reading Quiz for Each Lecture</p></li>
-<li><p>Simulations: Business Analytics, Cyber Attack (<em>TBD</em>)</p></li>
-<li><p>Prediction Challenge (<em>Week 3</em>)</p></li>
-<li><p>AI Project (<strong>group</strong>)</p>
-<ul>
-<li><p>Descriptive Analysis (<em>Week 2</em>)</p></li>
-<li><p>Data Visualization (<em>Week 4</em>)</p></li>
-<li><p>Final Product Presentation (<em>Week 5</em>)</p></li>
-</ul></li>
-<li><p>Emerging Technology Idea (<strong>group</strong>) (<em>Week 5</em>)</p></li>
-<li><p>Peer Evaluation</p></li>
-</ol>
-</section>
-<section id="ai-project" class="slide level2 smaller">
-<h2>AI Project</h2>
-<div class="r-stack">
-<ul>
-<li>Very flexible</li>
-<li>Find something interesting in the AI/Data Science/ML world and create something
-<ul>
-<li><strong>Insight</strong>: does this <em>answer</em> an important question or <em>solve</em> an important problem?</li>
-<li><strong>Utility</strong>: is this useful? Could it be?</li>
-<li><strong>Creativity</strong>: could ChatGPT come up with this?</li>
-<li><strong>Novel data</strong>: is this a boring dataset or an exciting one? (at least 2k obs)</li>
-</ul></li>
-<li>One approach: imagine a client has hired you to solve a problem, and this is your chance to solve it</li>
-</ul>
-<p><img data-src="media/something_amazing.png" class="fragment" width="400" height="250"></p>
-</div>
-<div class="fragment">
-<ul>
-<li><strong>GROUPS OF 4-5 MUST BE REGISTERED ALONG WITH GENERAL TOPIC AREA <a href="https://docs.google.com/spreadsheets/d/1WohDMv6lrv_TKRdxqeJNfznOQFqSWYFZrVewZVTXAls/edit?usp=sharing">HERE</a> BY END OF WEEK 1</strong></li>
-</ul>
-</div>
-</section>
-<section id="descriptive-analysis" class="slide level2">
-<h2>Descriptive Analysis</h2>
-<p><strong>Submissions (1 page) Due end of Week 2</strong></p>
-<ul>
-<li>What data are you using?</li>
-<li>Summary tables + histograms</li>
-<li>Demonstrate that you have the data and your project is <em>feasible</em></li>
-</ul>
-</section>
-<section id="data-visualization" class="slide level2">
-<h2>Data Visualization</h2>
-<p><strong>Submissions (dashboard) Due End of Week 4</strong></p>
-<ul>
-<li>r/dataisbeautiful</li>
-<li>Deep dive into data and specific project</li>
-<li>The relationships that you assumed were present are indeed present</li>
-<li>This the setup of your final project</li>
-</ul>
-</section>
-<section id="final-product-presentation" class="slide level2">
-<h2>Final Product Presentation</h2>
-<p><strong>Presentations (5-7 slides + demo) Due Final Class Meeting</strong></p>
-<ul>
-<li>Convey your solution/answer</li>
-<li>Show why this is interesting</li>
-<li>Demonstrate your data analytics/visualization skills</li>
-</ul>
-</section>
-<section id="prediction-challenge" class="slide level2">
-<h2>Prediction Challenge</h2>
-<p><strong>Submissions (</strong><span class="math inline">\(\hat{y}\)</span> as .csv) <strong>Due End of Week 3</strong></p>
-<p>More details coming next week</p>
-<ul>
-<li>Kaggle style</li>
-<li>I provide Training Data <span class="math inline">\((X, y)\)</span> and Testing <span class="math inline">\(X\)</span>, you submit predictions <span class="math inline">\((\hat{y})\)</span></li>
-</ul>
-</section>
-<section id="emerging-technology-summary" class="slide level2">
-<h2>Emerging Technology Summary</h2>
-<p><strong>Presentations (5-7 slides) Presented Week 5</strong></p>
-<p>As a team, investigate an emerging technology/AI application of your interest. You can refer to Gartner Hype Cycle for <a href="https://www.gartner.com/en/articles/what-s-new-in-the-2022-gartner-hype-cycle-for-emerging-technologies">Emerging Technology</a> and <a href="https://www.gartner.com/en/articles/what-s-new-in-artificial-intelligence-from-the-2022-gartner-hype-cycle">AI</a> for the selection of the topic. Conduct thorough research of this technology using reputable online sources (contact the Bryant librarians on locating good online sources). Work together to create a ~20-minute presentation to report your findings.</p>
-</section>
-<section id="tentative-course-schedule" class="slide level2 scrollable smaller">
-<h2>Tentative Course Schedule</h2>
-<ul>
-<li>*Classes 7/11, 7/13, 7/18, 7/20 will be REMOTE - Zoom link provided through Canvas</li>
-</ul>
-<table style="width:99%;">
-<colgroup>
-<col style="width: 4%">
-<col style="width: 4%">
-<col style="width: 6%">
-<col style="width: 48%">
-<col style="width: 35%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Class</th>
-<th>Date</th>
-<th>Topic/Reading</th>
-<th>Assignments</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>1</td>
-<td>7/6</td>
-<td><p>Introduction</p>
-<p><em>BA Chapter 1 Introduction to Business Analytics</em></p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>2</td>
-<td><strong>7/11*</strong></td>
-<td><p>Basic Stats Review</p>
-<p><em>AI Chapter 1-2: The Age of AI; Rethinking the Firm</em></p>
-<p><em>BA Chapter 2-3 Describing the Distribution of a Variables; Finding Relationships among Variables</em></p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>3</td>
-<td><strong>7/13*</strong></td>
-<td><p>Business Intelligence Tools</p>
-<p><em>AI Chapter 3-4 the AI Factory; Re-architecting the Firm</em></p>
-<p><em>BA Chapter 4 Business Intelligence (BI) Tools for Data Analysis</em></p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>4</td>
-<td><strong>7/18*</strong></td>
-<td><p>PowerBI</p>
-<p>Guest Lecture</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>5</td>
-<td><strong>7/20*</strong></td>
-<td><p>Regression + Prediction</p>
-<p><em>BA Chapter 10 Estimating Relationships</em></p>
-<p><em>BA Chapter 11 Regression Analysis: Statistical Inference</em></p></td>
-<td>Descriptive Analytics Submission</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>6</td>
-<td>7/25</td>
-<td><p>Time Series</p>
-<p><em>BA Chapter 12 Time Series Analysis and Forecasting</em></p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>7</td>
-<td>7/27</td>
-<td><p>Optimization Modeling</p>
-<p><em>BA Chapter 13 Introduction to Optimization Modeling</em></p></td>
-<td>Prediction Challenge Submission</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>8</td>
-<td>8/1</td>
-<td><p>Strategy Simulation</p>
-<p>Prediction Challenge Debrief</p>
-<p><em>AI 5-6 Becoming an AI company; Strategy for a New Age</em></p>
-<p><em>Data Analytics Simulation: Strategic Decision Making</em></p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>9</td>
-<td>8/3</td>
-<td><p>Decision Making Under Uncertainty</p>
-<p><em>Data Analytics Simulation Debrief</em></p>
-<p><em>BA Chapter 6 Decision Making under Uncertainty</em></p></td>
-<td>Data Visualization Submission</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>10</td>
-<td>8/8</td>
-<td><p>IT Management Simulation</p>
-<p>Data Visualization Debrief</p>
-<p><em>AI Chapter 9-10 the New Meta; A Leadership Mandate</em></p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>11</td>
-<td>8/10</td>
-<td><p>Emerging Technology Presentations + Analytics Project Final Presentations</p>
-<p><em>AI Chapter 7-8 Strategic Collisions; the Ethics of Digital Scale, Scope and Learning</em></p></td>
-<td>Emerging Technology Presentation + Analytics Project Final Presentations</td>
-</tr>
-</tbody>
-</table>
 </section>
 <section>
 <section id="admin-questions" class="title-slide slide level1 center">
 <h1>Admin Questions?</h1>
 
 </section>
-<section id="examples-from-the-info-world" class="slide level2">
-<h2>Examples from the “Info” World</h2>
+<section id="basic-stats-review" class="slide level2">
+<h2>Basic Stats Review</h2>
+<p>Why?</p>
 <ul>
-<li>How are we preparing for and shaping the real future?</li>
-<li>Data science is EVERYWHERE</li>
-</ul>
-</section>
-<section id="google-health" class="slide level2">
-<h2>Google Health</h2>
+<li><p>Managers need to know what is possible to ask for and what is possible to supply</p>
 <ul>
-<li>AI Dermatologist <img data-src="media/google_derm_assist.png" width="1100" height="550"></li>
-</ul>
-</section>
-<section id="nature-sounds-analysis" class="slide level2">
-<h2>Nature Sounds Analysis</h2>
+<li>And the possible pitfalls</li>
+</ul></li>
+<li><p>We won’t go into the deep details, just high level so you know what’s out there</p>
 <ul>
-<li><a href="https://www.ted.com/talks/bernie_krause_the_voice_of_the_natural_world?referrer=playlist-sounds_of_the_wild&amp;autoplay=true">When the beaver’s wife dies</a></li>
-</ul>
-<div class="r-stack">
-<p><img data-src="media/sound_1.png" class="fragment" width="1100" height="550"></p>
-<p><img data-src="media/sound_2.png" class="fragment" width="1100" height="550"></p>
-</div>
-</section>
-<section id="bird-call-app" class="slide level2">
-<h2>Bird Call App</h2>
-<ul>
-<li>What bird is that? <img data-src="media/birds.png" width="1300" height="550"></li>
-</ul>
-</section>
-<section id="light-data" class="slide level2">
-<h2>Light Data</h2>
-<ul>
-<li>What is that other island near Japan?</li>
-</ul>
-<div class="r-stack">
-<p><img data-src="media/space_light_data_1.png" class="fragment" width="800" height="550"></p>
-<p><img data-src="media/light_data_2.png" class="fragment" width="800" height="550"></p>
-<p><img data-src="media/korea_light.png" class="fragment" width="800" height="550"></p>
-</div>
-</section>
-<section id="the-ai-writer" class="slide level2">
-<h2>The AI Writer</h2>
-<p><a href="https://botnik.org/content/harry-potter.html">Harry Potter</a></p>
-<p><img data-src="media/hp_ai.png" width="400" height="650"></p>
-</section>
-<section id="mcbroken" class="slide level2">
-<h2>McBroken</h2>
-<ul>
-<li>The hero we need</li>
-</ul>
-<p><img data-src="media/mcbroken.png" width="800" height="550"></p>
-</section>
-<section id="better-at-empathy" class="slide level2">
-<h2>Better at Empathy?</h2>
-<ul>
-<li>Never tired of helping</li>
-</ul>
-<p><a href="https://twitter.com/EricTopol/status/1668449875086946310?s=20">Eric Topol</a></p>
-</section>
-<section id="recognizing-pain" class="slide level2 smaller scrollable">
-<h2>Recognizing Pain</h2>
-<ul>
-<li>Doesn’t see race
-<ul>
-<li>At every level of severity, minorities feel more pain</li>
-<li>Conditional on severity, minorities more likely to be given opiates, whites more likely to be given knee replacements</li>
+<li>(Ford vs Ferrari)</li>
 </ul></li>
 </ul>
-<div class="r-stack">
-<p><img data-src="media/knee_pain_1.png" class="fragment" width="800" height="450"></p>
-<p><img data-src="media/knee_pain_2.png" class="fragment" width="1100" height="550"></p>
-<p><img data-src="media/knee_pain_3.png" class="fragment" width="600" height="450"></p>
-<p><img data-src="media/knee_pain_4.png" class="fragment" width="600" height="450"></p>
+</section>
+<section id="outline" class="slide level2 smaller">
+<h2>Outline</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>One Variable</strong></p>
+<ul>
+<li>Histograms</li>
+<li>Means, Medians</li>
+<li>Standard Deviations</li>
+<li>Quantiles</li>
+<li>Box and Whisker/Violin Plots</li>
+</ul>
+<p><strong>Two Variables</strong></p>
+<ul>
+<li>Scatter plots</li>
+<li>Bin Scatter</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><strong>Potential Outcomes</strong></p>
+<ul>
+<li>Treatment effect</li>
+<li>Counterfactuals</li>
+<li>The fundamental problem of causal inference</li>
+</ul>
+<p><strong>A Few Traps</strong></p>
+<ul>
+<li>Selection Bias</li>
+<li>Selective Labels</li>
+</ul>
+</div>
 </div>
 </section>
-<section id="under-use-of-health-care" class="slide level2">
-<h2>Under-Use of Health Care</h2>
+<section id="goal-of-using-stats" class="slide level2">
+<h2>Goal of Using Stats</h2>
+<p>Tell a story</p>
 <ul>
-<li>Whom should we test?</li>
+<li>Stats help summarize the story</li>
+<li>The risk is that in summarizing, some information is lost</li>
+<li>We need to be good at understanding <em>the right</em> stats to present</li>
 </ul>
-<p><img data-src="media/over_under_testing.png" class="fragment" width="900" height="450"></p>
 </section>
-<section id="preventing-crime" class="slide level2">
-<h2>Preventing Crime</h2>
+<section id="crucial-but-often-overlooked-histograms" class="slide level2">
+<h2>Crucial but often overlooked: Histograms</h2>
+<p>Show us the distribution of your data</p>
 <ul>
-<li>Whom should we release?</li>
+<li><p>Nothing can hide</p></li>
+<li><p>Might reveal why your results are the way they are</p></li>
 </ul>
+<p>What is a histogram?</p>
+<ul>
+<li><p>Counts or percentages of observations in bins</p></li>
+<li><p>Displayed simply - usually a bar chart</p></li>
+</ul>
+</section>
+<section id="histogram-examples" class="slide level2" data-layout-valign="top">
+<h2>Histogram Examples</h2>
 <div class="r-stack">
-<p><img data-src="media/jail.png" class="fragment absolute" style="top: 50px; right: 50px; width: 800px; height: 950px; "></p>
-<p><img data-src="media/jail_2.png" class="fragment absolute" style="top: 50px; right: 50px; width: 1100px; height: 550px; "></p>
+<p><img data-src="media/sports_histogram.png" class="fragment" width="800" height="550"></p>
+<p><img data-src="media/energy_hist.png" class="fragment" width="800" height="550"></p>
+<p><img data-src="media/military_hist.png" class="fragment" width="800" height="550"></p>
+<p><img data-src="media/mother_age_hist.png" class="fragment" width="800" height="550"></p>
+<p><img data-src="media/tax_hist.png" class="fragment" width="800" height="550"></p>
+<p><img data-src="media/kink_hist.png" class="fragment" width="800" height="550"></p>
 </div>
 </section>
-<section id="where-can-i-find-my-own-data" class="slide level2">
-<h2>Where can I find my own data?</h2>
+<section id="mean" class="slide level2">
+<h2>Mean</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>Sample mean: <span class="math inline">\(\bar{X} = \frac{1}{n} \sum^n_i X_i\)</span></p>
+<p>Population mean: <span class="math inline">\(\mu\)</span></p>
 <ul>
-<li><a href="https://youtu.be/lhX83zc68ZA">Market Power Video</a></li>
-<li><a href="https://fred.stlouisfed.org/">FRED</a></li>
-<li><a href="https://ourworldindata.org/">Our World in Data</a></li>
-<li><a href="https://www.ipums.org/">IPUMS</a></li>
-<li><a href="https://gss.norc.org/">GSS</a></li>
-<li><a href="https://www.kaggle.com/datasets">Kaggle</a></li>
-<li><a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a></li>
+<li><p>What about with skewed data?</p>
+<ul>
+<li>Income? Health Expenditure?</li>
+</ul></li>
+<li><p>What about with ordinal data?</p>
+<ul>
+<li>One-hot encode?</li>
+</ul></li>
+<li><p>Weighted data?</p></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div class="r-stack fragment">
+<p>Foreshadow: SELECTION BIAS</p>
+<p><img data-src="media/tornado_avg.png" class="fragment" width="300"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="median" class="slide level2">
+<h2>Median</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>The “middle” value</p>
+<p><span class="math inline">\(F^{-1}(p) = min\{x \in \mathbb{R} : F(x) \geq p\}\)</span></p>
+<p><span class="math inline">\(p = 0.5 \implies median\)</span></p>
+<p><span class="math inline">\(F(X) = CDF(X)\)</span></p>
+<p>When is Median better than Mean?</p>
+<ul>
+<li><p>Skewed data or data with outliers</p>
+<ul>
+<li>Income</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="media/elon.png" class="fragment" width="400"></p>
+</div>
+</div>
+</section>
+<section id="spread" class="slide level2">
+<h2>Spread</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>How do we measure how spread out the data is?</p>
+<p>Why does this matter?</p>
+<ul>
+<li><strong>Rule of thumb: 95% of obs are within</strong> <span class="math inline">\(\mu \pm 2\sigma\)</span></li>
+</ul>
+<p>Standard Deviation: <span class="math inline">\(\sigma = \sqrt{\frac{\sum_i^n (X_i - \mu)^2}{n}}\)</span></p>
+<p>Variance: <span class="math inline">\(\sigma^2\)</span></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="media/rule_of_thumb.png"></p>
+</div>
+</div>
+</section>
+<section id="quantiles" class="slide level2">
+<h2>Quantiles</h2>
+<ul>
+<li><p>Divide the data into bins of equal size</p>
+<ul>
+<li><p>10 bins = deciles</p></li>
+<li><p>100 bins = percentiles</p></li>
+<li><p>20 bins = vintiles</p></li>
+</ul></li>
+<li><p>When is this useful?</p>
+<ul>
+<li><p>“Most relevant” set of observations</p></li>
+<li><p>Apples-to-apples</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="box-and-whisker-violin-plots" class="slide level2">
+<h2>Box and Whisker / Violin Plots</h2>
+<div class="r-stack">
+<p><img data-src="media/bnw_vi.png" width="600"></p>
+<p><img data-src="media/ridge_plot.png" class="fragment" width="600"></p>
+</div>
+<ul>
+<li>Lower Adjacent Value: Q1 - 1.5 * IQR</li>
+<li>Useful for showing multiple distributions at once</li>
 </ul>
 </section></section>
 <section>
-<section id="some-general-thoughts-on-generating-data-ideas" class="title-slide slide level1 center">
-<h1>Some general thoughts on generating data ideas</h1>
+<section id="relationships-between-two-variables" class="title-slide slide level1 center">
+<h1>Relationships between TWO Variables</h1>
 
 </section>
-<section id="offense-vs-defense" class="slide level2">
-<h2>Offense vs Defense</h2>
+<section id="scatter-plots" class="slide level2">
+<h2>Scatter plots</h2>
 <ul>
-<li>Think of idea generation as two sides: offense and defense</li>
-<li>Then alternate which side is in control for a few days at a time</li>
+<li>RA Fischer: most useful statistical tool</li>
 </ul>
+<div class="r-stack">
+<p><img data-src="media/gdp_life_expectancy.png" class="fragment" width="600"></p>
+<p><img data-src="media/gdp_le.png" class="fragment" width="600"></p>
+<p><img data-src="media/np_cp.png" class="fragment" width="600"></p>
+<p><img data-src="media/spend_rank.png" class="fragment" width="600"></p>
+</div>
 </section>
-<section id="the-botantist-in-the-jungle" class="slide level2">
-<h2>The Botantist in the Jungle</h2>
-<ul>
-<li>This is the reason I love economics and data science</li>
-<li>There are questions all around, and data is becoming more and more available on any topic</li>
-</ul>
+<section id="bin-scatter" class="slide level2">
+<h2>Bin Scatter</h2>
+
+<img data-src="media/chetty_1.png" width="600" class="r-stretch"></section></section>
+<section>
+<section id="potential-outcomes" class="title-slide slide level1 center">
+<h1>Potential Outcomes</h1>
+
 </section>
-<section id="beating-humans-is-easier" class="slide level2">
-<h2>Beating Humans is Easier</h2>
-<ul>
-<li>Don’t try to build an algorithm that will beat someone else’s algorithm</li>
-</ul>
+<section id="potential-outcomes-1" class="slide level2">
+<h2>Potential Outcomes</h2>
+<p>Treatment status: <span class="math inline">\(D \in \{0, 1\}\)</span></p>
+<p>Outcome variable: <span class="math inline">\(Y\)</span></p>
+<p><span class="math inline">\(Y \in \{Y_0, Y_1\}\)</span> depending on treatment status</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Person</th>
+<th style="text-align: center;"><span class="math inline">\(Y_0\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(Y_1\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Alice</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bob</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">7</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="the-idea-muscle" class="slide level2">
-<h2>The Idea Muscle</h2>
-<ul>
-<li><a href="https://youtu.be/iLmD03_aErU">Market Power</a></li>
-<li>You need to come up with a bunch of bad ideas before you can get good at coming up with ideas</li>
-</ul>
+<section id="treatment-effect" class="slide level2">
+<h2>Treatment effect</h2>
+<p><span class="math inline">\(\delta_i = Y_{i1} - Y_{i0}\)</span></p>
+<p><span class="math inline">\(i\)</span> = person specific</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Person</th>
+<th style="text-align: center;"><span class="math inline">\(Y_0\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(Y_1\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\delta\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Alice</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bob</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">-2</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="the-ghost-paper" class="slide level2">
-<h2>The Ghost Paper</h2>
-<ul>
-<li>Write the paper before you have the results</li>
-<li>Write the title
-<ul>
-<li>“This is the one thing that MOST people don’t know about the fast food industry”</li>
-</ul></li>
-</ul>
+<section id="the-fundamental-problem-of-causal-inference" class="slide level2">
+<h2>The fundamental problem of causal inference</h2>
+<p>You only observe each person in their <em>realized</em> treatment status</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Person</th>
+<th style="text-align: center;"><span class="math inline">\(Y_0\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(Y_1\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\delta\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Alice <span class="math inline">\(D=1\)</span></td>
+<td style="text-align: center;"><strong>-</strong></td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bob <span class="math inline">\(D=0\)</span></td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><strong>-</strong></td>
+<td style="text-align: center;">-</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="counterfactuals" class="slide level2">
+<h2>Counterfactuals</h2>
+<p>“Guessing” what <em>would have happened</em> had the status been reversed</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Person</th>
+<th style="text-align: center;"><span class="math inline">\(Y_0\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(Y_1\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(\hat{\delta}\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Alice <span class="math inline">\(D=1\)</span></td>
+<td style="text-align: center;"><strong>9*</strong></td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">1*</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bob <span class="math inline">\(D=0\)</span></td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;"><strong>10*</strong></td>
+<td style="text-align: center;">1*</td>
+</tr>
+</tbody>
+</table>
+<p>Almost ALL of causal inference is convincing the audience that the counterfactual is accurate. This is the “inference” part.</p>
 </section></section>
 <section>
-<section id="tools-setup" class="title-slide slide level1 center">
-<h1>Tools Setup</h1>
+<section id="a-few-traps" class="title-slide slide level1 center">
+<h1>A Few Traps</h1>
 
 </section>
-<section id="tools-setup-rstudio" class="slide level2">
-<h2>Tools Setup: RStudio</h2>
-<p><a href="https://posit.co/download/rstudio-desktop/">posit</a></p>
+<section id="selection-bias" class="slide level2 smaller">
+<h2>Selection Bias</h2>
+<p>There is ALWAYS selection bias. The question is whether or not it’s a problem.</p>
+<ul>
+<li><p>Selection bias: the average difference in <span class="math inline">\(Y_0\)</span> between those that were and were not treated.</p>
+<ul>
+<li><p>Sick people more likely to seek treatment</p>
+<p><img data-src="media/selection_def.png"></p></li>
+<li><p>1 = 10 + (-9)</p></li>
+</ul></li>
+</ul>
+<p>[MRU](Selection Bias | Marginal Revolution University (mru.org)</p>
 </section>
-<section id="tools-setup-google-colab" class="slide level2">
-<h2>Tools Setup: Google Colab</h2>
-<p><a href="https://colab.research.google.com/">colab</a></p>
+<section id="when-is-selection-bias-a-problem" class="slide level2">
+<h2>When is Selection Bias a Problem?</h2>
+<p>Selection on observables: know where the problem is. Condition on observables to remove selection bias</p>
+
+<img data-src="media/cia.png" class="r-stretch"><p>Selection on UNobservables: harder to correct (but there are ways)</p>
 </section>
-<section id="tools-setup-excelpowerbi-via-vm" class="slide level2">
-<h2>Tools Setup: Excel/PowerBI (via VM)</h2>
-<p><a href="https://bryant.instructure.com/courses/8700/files/1277688?module_item_id=357575">vmware</a> <a href="https://is.bryant.edu/services/communication-and-collaboration/collaboration/office-365/office-365-personal-installation">office365</a></p>
-<div class="footer footer-default">
+<section id="selective-labels" class="slide level2 smaller">
+<h2>Selective Labels</h2>
+<p>Equally pervasive, rarely discussed</p>
+<ul>
+<li><p>Labels are present only in cases where a human decides they should be present</p></li>
+<li><p>Deeper than <em>NA</em> - the observation is just not there</p>
+<p><img data-src="media/sel_lab.png"></p></li>
+</ul>
+</section>
+<section id="selective-labels-example" class="slide level2">
+<h2>Selective Labels Example</h2>
+
+<img data-src="media/sel_labels_2.png" class="r-stretch"><div class="footer footer-default">
 
 </div>
 </section></section>
@@ -767,19 +695,19 @@
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="Lecture 1 Introduction_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="Lecture 1 Introduction_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="Lecture 2 Basic Stats Review_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
