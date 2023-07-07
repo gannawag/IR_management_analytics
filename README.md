@@ -1,6 +1,7 @@
 |Materials|
 |---|
 | [Syllabus](https://gannawag.github.io/IR_management_analytics/syllabus.html) |
+| [Introduction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%201%20Introduction.html#/title-slide) |
 
 
 
