@@ -5,6 +5,8 @@
 | [Basic Stats Review](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%202%20Basic%20Stats%20Review.html) |
 | [BI Tools](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%203%20Business%20Intelligence%20Tools.html) |
 | [Regression and Prediction](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%205%20Regression%20and%20Prediction.html) |
+| [Time Series](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%206%20Time%20Series.html) |
+| [Optimization](https://gannawag.github.io/IR_management_analytics/lectures/Lecture%207%20Optimization.html) |
 
 
 
